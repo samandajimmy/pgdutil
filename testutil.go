@@ -49,6 +49,11 @@ func NewDummyEcho(method, path string, pl ...interface{}) DummyEcho {
 
 func (cv *customValidator) CustomValidation() {
 	validator := validator.New()
+
+	for key, fn := range WrapCustomValidatorFunc {
+		_ = validator.RegisterValidation(key, fn)
+	}
+
 	cv.Validator = validator
 }
 
