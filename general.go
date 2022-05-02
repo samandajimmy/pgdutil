@@ -64,6 +64,11 @@ func NowDbBun() time.Time {
 	return time.Now().Add(7 * time.Hour)
 }
 
+// NowUTC to get real current datetime but UTC format
+func NowUTC() time.Time {
+	return time.Now().UTC().Add(7 * time.Hour)
+}
+
 func InterfaceToMap(obj interface{}) map[string]interface{} {
 	var mappedObj map[string]interface{}
 
