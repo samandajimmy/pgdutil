@@ -8,10 +8,10 @@ require (
 	github.com/onsi/ginkgo/v2 v2.1.3
 	github.com/onsi/gomega v1.19.0
 	gopkg.in/go-playground/validator.v9 v9.31.0
-	repo.pegadaian.co.id/ms-pds/modules/logger v0.0.0
+	repo.pegadaian.co.id/ms-pds/modules/pgdlogger v1.0.0
 )
 
-replace repo.pegadaian.co.id/ms-pds/modules/logger => repo.pegadaian.co.id/ms-pds/modules/logger.git v0.0.0
+replace repo.pegadaian.co.id/ms-pds/modules/pgdlogger => repo.pegadaian.co.id/ms-pds/modules/pgdlogger.git v1.0.0
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect

@@ -147,5 +147,5 @@ gopkg.in/yaml.v2 v2.4.0/go.mod h1:RDklbk79AGWmwhnvt/jBztapEOGDOx6ZbXqjP6csGnQ=
 gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
 gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b h1:h8qDotaEPuJATrMmW04NCwg7v22aHH28wwpauUhK9Oo=
 gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
-repo.pegadaian.co.id/ms-pds/modules/logger.git v0.0.0 h1:wTHpUzXhBAamZuDef20bVXkerbqPFrkARSD+0FX5xbU=
-repo.pegadaian.co.id/ms-pds/modules/logger.git v0.0.0/go.mod h1:E7WLuNIXAclrJzqeisxtX2qf1xFPIgXUbmU6yqCa6no=
+repo.pegadaian.co.id/ms-pds/modules/pgdlogger.git v1.0.0 h1:GSU8src7kS9/pwrk7xXLAHxV4AY29ynyxZRF+HifXhA=
+repo.pegadaian.co.id/ms-pds/modules/pgdlogger.git v1.0.0/go.mod h1:+lyhbtPmu5cZZFvZn2pVFF8QBpnz5sRjpsRPmbFcnrU=

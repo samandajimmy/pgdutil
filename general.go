@@ -7,7 +7,7 @@ import (
 	"math/rand"
 	"time"
 
-	"repo.pegadaian.co.id/ms-pds/modules/logger"
+	"repo.pegadaian.co.id/ms-pds/modules/pgdlogger"
 )
 
 const (
@@ -30,7 +30,7 @@ func ToJson(obj interface{}) string {
 	b, err := json.Marshal(obj)
 
 	if err != nil {
-		logger.Make().Panic(err)
+		pgdlogger.Make().Panic(err)
 	}
 
 	return string(b)
@@ -75,11 +75,11 @@ func InterfaceToMap(obj interface{}) map[string]interface{} {
 	byteObj, err := json.Marshal(obj)
 
 	if err != nil {
-		logger.Make().Panic(err)
+		pgdlogger.Make().Panic(err)
 	}
 
 	if err := json.Unmarshal(byteObj, &mappedObj); err != nil {
-		logger.Make().Panic(err)
+		pgdlogger.Make().Panic(err)
 	}
 
 	return mappedObj
