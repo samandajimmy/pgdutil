@@ -7,7 +7,7 @@ import (
 	"math/rand"
 	"time"
 
-	"repo.pegadaian.co.id/ms-pds/modules/pgdlogger"
+	"github.com/samandajimmy/pgdlogger"
 )
 
 const (

@@ -1,4 +1,4 @@
-module repo.pegadaian.co.id/ms-pds/modules/pgdutil
+module github.com/samandajimmy/pgdutil
 
 go 1.17
 
@@ -7,11 +7,9 @@ require (
 	github.com/labstack/echo/v4 v4.7.2
 	github.com/onsi/ginkgo/v2 v2.1.3
 	github.com/onsi/gomega v1.19.0
+	github.com/samandajimmy/pgdlogger v0.0.0
 	gopkg.in/go-playground/validator.v9 v9.31.0
-	repo.pegadaian.co.id/ms-pds/modules/pgdlogger v1.0.0
 )
-
-replace repo.pegadaian.co.id/ms-pds/modules/pgdlogger => repo.pegadaian.co.id/ms-pds/modules/pgdlogger.git v1.0.0
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
